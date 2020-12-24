@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../styles/index.css">
+  <link rel="stylesheet" href="styles/pokeStylesW13.css">
+  <link rel="stylesheet" href="styles/modalStyleW13.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Pokedex API - Challenge</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="navigationTop">
+      <a href="../index.html" class="active">PORTFOLIO - 2021</a>
+    </div>
+    <header>Stephen's Pokedex Project: List all known Pokemon</header>
+    <div id="stylePokemanList">
+      <ol id="pokedexList"></ol>
+    </div>
+    <div id="pokedexEntryContainer" class="pokedexEntryContainer">
+      <div class="pokedexEntryHeader">
+        <button id="favBtn">FAV</button>
+        <div class="modal-title">POKEDEX ENTRY </div>
+        <button id="closeBtn">CLOSE</button>
+      </div>
+      <div id="modalBody" class="modalBody"></div>
+    </div>
+    <div class="backgroundModal"></div>
+    <div id="btnContainer">
+      <button id="previousBtn"> PREV</button>
+      <button id="favoritesFilterBtn"><a href="favoritePokeW13.html">FAV</a></button>
+      <button id="nextBtn">NEXT</button>
+    </div>
+    <script src="./scripts/fetchApiW13.js" type="module"></script>
+    <script src="../scripts/main.js"></script>
+    <footer>&copy 2020 | School Project | Stephen Ellis </footer>
+</body>
+
+</html>
