@@ -14,7 +14,7 @@ const displayFavPokemon = () => {
         `<img class="spriteAlign" src="${favPokemon.sprite}">
         <p class="pokeId" hidden>${favPokemon.id}</p> 
         <p class="pokeNumber" hidden>${favPokemon.number}</p>
-        <h1 class="pokeName">Pokemon: ${favPokemon.name}</h1>
+        <h1 class="pokeName"> ${favPokemon.name}</h1>
         <p class="pokeSpecies">${favPokemon.pokeSpeciesDetail}</p>
         <p class="pokeTypes">${favPokemon.types} type</p>
         <p class="pokeText">${favPokemon.pokemonText}</p>
